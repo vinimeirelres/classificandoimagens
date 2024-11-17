@@ -1,4 +1,5 @@
-# classificandoimagens
+#classificandoimagens
+
 Arquivos do Projeto 1 - Classificando Imagens, da disciplina SIN 393 (Introdução à Visão Computacional)
 Índice
 
@@ -26,9 +27,6 @@ Para instalar todas as bibliotecas, você pode executar a primeira célula do no
 Instruções de Execução
 
     Clone este repositório:
-
-git clone https://github.com/vinimeirelres/classificandoimagens
-
-Abra o notebook e execute célula por célula (não é necessário extrair o dataset novamente):
-
-    projeto1classificandoimagens.ipynb
+        git clone https://github.com/vinimeirelres/classificandoimagens
+    Abra o notebook e execute célula por célula (não é necessário extrair o dataset novamente):
+        projeto1classificandoimagens.ipynb
