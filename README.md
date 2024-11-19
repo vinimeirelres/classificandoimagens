@@ -1,6 +1,8 @@
 # Classificando Imagens
 
-## Arquivos do Projeto 1 - Classificando Imagens, da disciplina SIN 393 (Introdução à Visão Computacional)
+## Projeto 1 - Classificando Imagens, da disciplina SIN 393 (Introdução à Visão Computacional)
+Júlia Marques Boaventura - 8105
+Vinícius Meireles Pereira Santos - 8112
 
 ### Índice
 - Descrição do Projeto
