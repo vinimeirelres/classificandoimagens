@@ -4,8 +4,8 @@ Projeto desenvolvido na disciplina **SIN 393 – Introdução à Visão Computac
 
 ## Autores
 
-- Júlia Marques Boaventura – 8105  
-- Vinícius Meireles Pereira Santos – 8112  
+- Júlia Marques Boaventura 
+- Vinícius Meireles Pereira Santos
 
 ---
 
