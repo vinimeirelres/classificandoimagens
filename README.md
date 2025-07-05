@@ -1,40 +1,89 @@
 # Classificando Imagens
 
-## Projeto 1 - Classificando Imagens, da disciplina SIN 393 (Introdução à Visão Computacional)
-Júlia Marques Boaventura - 8105
+Projeto desenvolvido na disciplina **SIN 393 – Introdução à Visão Computacional** da Universidade Federal de Viçosa – Campus Rio Paranaíba.
 
-Vinícius Meireles Pereira Santos - 8112
+## Autores
 
-### Índice
-- Descrição do Projeto
-- Requisitos
-- Instruções de Execução
+- Júlia Marques Boaventura – 8105  
+- Vinícius Meireles Pereira Santos – 8112  
 
-### Descrição do Projeto
+---
 
-Este projeto tem como objetivo implementar um classificador de imagens com base em aprendizado de máquina, abordando etapas como extração de características, segmentação e normalização no pré-processamento; treinamento e avaliação dos modelos treinados.
+## Índice
 
-### Requisitos
+1. [Descrição do Projeto](#descrição-do-projeto)  
+2. [Requisitos](#requisitos)  
+3. [Dataset](#dataset)  
+4. [Instruções de Execução](#instruções-de-execução)  
+5. [Licença](#licença)  
 
-As dependências necessárias para rodar o projeto estão listadas abaixo:
+---
 
-- Python 3.12.2
-- Scikit-Image
-- MatPlotLib
-- NumPy
-- Scikit-Learn
-- Seaborn
-- Pandas
-- SciPy
+## Descrição do Projeto
 
-Para instalar todas as bibliotecas, você pode executar a primeira célula do notebook.
+Este trabalho implementa um classificador de imagens utilizando o conjunto de dados **MPEG‑7**.  
+O notebook `projeto1classificandoimagens.ipynb` percorre todas as etapas, incluindo:
 
-### Instruções de Execução
+- Extração de características das imagens  
+- Pré-processamento (segmentação e normalização)  
+- Treinamento e avaliação de modelos de aprendizado de máquina  
 
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/vinimeirelres/classificandoimagens
+Ao final, são gerados gráficos e métricas que ilustram a acurácia do classificador para cada categoria de imagem.
 
-2. Abra o notebook e execute célula por célula (não é necessário extrair o dataset novamente):
+---
+
+## Requisitos
+
+- Python 3.12.2  
+- Bibliotecas utilizadas:
+  - `scikit-image`
+  - `matplotlib`
+  - `numpy`
+  - `scikit-learn`
+  - `seaborn`
+  - `pandas`
+  - `scipy`
+
+### Ambiente virtual (opcional):
+```bash
+python -m venv .venv
+source .venv/bin/activate  # Linux/macOS
+# .venv\Scripts\activate  # Windows
+pip install -r requirements.txt
 ```
-    projeto1classificandoimagens.ipynb
+
+> Alternativamente, a **primeira célula do notebook instala automaticamente todas as dependências.**
+
+---
+
+## Dataset
+
+O repositório já contém o conjunto **MPEG‑7** localizado na pasta `mpeg7_mod/`, além do arquivo compactado `mpeg7_mod.zip` como backup.
+
+As classes de imagens incluem: `apple`, `bat`, `beetle`, `bell`, entre outras.  
+**Não é necessário fazer download adicional.**
+
+---
+
+## Instruções de Execução
+
+Clone este repositório e abra o notebook:
+
+```bash
+git clone https://github.com/vinimeirelres/classificandoimagens
+cd classificandoimagens
+```
+
+Execute o notebook em um ambiente Jupyter:
+
+```bash
+projeto1classificandoimagens.ipynb
+```
+
+No final, o notebook exibirá os gráficos, matrizes de confusão e métricas de avaliação dos modelos.
+
+---
+
+## Licença
+
+Este projeto tem finalidade **estritamente acadêmica**, sendo utilizado para estudo e experimentação na disciplina SIN 393.
